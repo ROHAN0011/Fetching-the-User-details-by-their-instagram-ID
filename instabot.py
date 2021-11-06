@@ -28,7 +28,7 @@ def search():
 
 frame = Frame(root,width=1000,height=750,relief=RIDGE,borderwidth=5,bg='#248aa2')
 frame.place(x=0,y=0)
-Label(root,text ="Developed By Rohan Kasabe", font = 'arial 30 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
+Label(root,text ="Developed By Rohan", font = 'arial 30 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 
 innerframe = LabelFrame(frame,width=980,height=60,relief=RIDGE,borderwidth=3,bg='#248aa2',highlightbackground="white", highlightcolor="white", highlightthickness=2)
 innerframe.place(x=5,y=5)
